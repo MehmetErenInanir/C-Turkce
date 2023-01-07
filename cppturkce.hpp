@@ -3,7 +3,7 @@
 
 // VOIDS
 void cppturkce() {
-    cout << "C++ Turkce Programlama Ogrenmek Isteyip Ingilizce Bilmeyen Turkler Icin Tasarlandi.";
+    std::cout << "C++ Turkce Programlama Ogrenmek Isteyip Ingilizce Bilmeyen Turkler Icin Tasarlandi.";
 }
 
 // DEFINES
@@ -13,11 +13,11 @@ void cppturkce() {
 #define sayi int
 #define ana main
 #define fonksiyonolustur void
-#define tanimla #define
-#define iceaktar #include
 #define ondaliklibuyuksayi double
 #define ondaliklisayi float
 #define arti +
 #define eksi -
 #define bolu /
 #define carpi *
+#define yazi string
+#define degilse else
