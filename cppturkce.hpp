@@ -3,7 +3,10 @@
 
 // VOIDS
 void cppturkce() {
-    std::cout << "C++ Turkce Programlama Ogrenmek Isteyip Ingilizce Bilmeyen Turkler Icin Tasarlandi.";
+    std::cout << "Programlama Ogrenmek Isteyip Ingilizce Bilmeyen Turkler Icin Tasarlandi.";
+}
+void mehmetereninanir() {
+    std::cout << "mehmetereninanir.github.io";
 }
 
 // DEFINES
@@ -21,3 +24,11 @@ void cppturkce() {
 #define carpi *
 #define yazi string
 #define degilse else
+#define dongu while
+#define dogru true
+#define yanlis false
+#define mantiksal bool
+#define kullan using
+#define adalani namespace
+#define buyuksayi size_t
+#define sureklidongu while(true)
