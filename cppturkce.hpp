@@ -32,3 +32,4 @@ void mehmetereninanir() {
 #define adalani namespace
 #define buyuksayi size_t
 #define sureklidongu while(true)
+#define donguyukir break
