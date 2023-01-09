@@ -1,6 +1,6 @@
 #include "cppturkce.hpp"
 
-using namespace std;
+kullan adalani std;
 
 sayi ana() {
     yazi veri;
