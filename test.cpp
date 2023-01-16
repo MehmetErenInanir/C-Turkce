@@ -1,16 +1,16 @@
-#include "cppturkce.hpp"
+#include <iostream>
+#include <string>
+#define password "engin"
 
-kullan adalani std;
+using namespace std;
 
-sayi ana() {
-    yazi veri;
-    yazi sifre = "1234";
-    yazdir << "Sifre : ";
-    girdi >> veri;
-
-    eger(veri == sifre) {
-        yazdir << "Dogru";
-    } degilse {
-        yazdir << "Yanlis";
+int main() {
+    string input;
+    cout << "Password : ";
+    cin >> input;
+    if(input == password) {
+        cout << "True!";
+    } else {
+        cout << "False!";
     }
 }
